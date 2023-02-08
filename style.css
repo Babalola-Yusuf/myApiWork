@@ -11,7 +11,8 @@ body{
     padding: 1rem;
     display:flex;
     justify-content: space-between;
-    width: 350px;
+    min-width: 350px;
+    max-with:480px;
     
 }
 
