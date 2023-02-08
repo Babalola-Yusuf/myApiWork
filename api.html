@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+    <link rel="stylesheet" href="./api.css">
+</head>
+<body>
+    <div class="root">
+       <div class="show">
+           
+        <div class="name flex">
+            <p>Name : </p>
+            <p id="name"></p>
+        </div>   
+        <div class="username flex">
+            <p>Username : </p> 
+            <p id="uname"></p>
+        </div>
+        <div class="id flex">
+            <p>Id: </p> 
+            <p id="id"></p>
+        </div>
+        <div class="city flex">
+            <p>City: </p> 
+            <p id="city"></p>
+        </div>
+       </div>
+       <div class="right">
+          <div id="image">
+           <img src="https://robohash.org/1" alt="">
+       </div> 
+       <div class="buttons">
+           <button type="button" onclick="prev()"> Previous</button>
+           <button type= "button" onclick="next()">Next </button>
+       </div>
+       </div>
+           
+    </div>
+    
+    <script src="./api.js"></script>
+</body>
+</html>
